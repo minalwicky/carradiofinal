@@ -1,0 +1,91 @@
+body {font-family: 'Noto Sans JP', sans-serif;;
+    background-color: grey;
+    background-size: cover;
+    background-image:url('adrian-Xft-JdC-Jbc-unsplash.jpg') ;
+background-size: cover;
+background-repeat: no-repeat;
+    }
+
+    html{
+      scroll-behavior: smooth;
+    }
+ 
+ .para1{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: white;
+    border-radius: 1.25cm;
+    font-size: 20px;
+    font-weight: 100px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    font-family: 'Oswald', sans-serif ;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid rgb(110, 99, 99);
+  }
+  
+ 
+  li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .active {
+    background-color: #4CAF50;
+  }
+  .footer {
+    background-color:darkgray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.5cm;
+  }
+  h1{
+    text-align: center;
+  }
+  #heading{
+   float: right;
+    color: white;
+    text-align: center;
+    padding-right: 10px;
+    text-decoration: none;
+    
+    display: block;
+    
+  }
+  .bar{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+  }
+  .logo{
+    align-items: center;
+  }
+  #homeheader{
+    font-family: 'Oswald', sans-serif;
+  }
+  
